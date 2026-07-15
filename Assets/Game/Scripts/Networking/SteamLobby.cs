@@ -121,6 +121,7 @@ namespace Game.Lobby
 		{
 			IsOpen = false;
 			steamLobbyContainer.SetActive(false);
+			hostLobbyBtn.GetComponent<Button>().interactable = false;
 		}
 	}
 }
